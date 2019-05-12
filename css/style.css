@@ -1,0 +1,138 @@
+
+ header
+{
+  background-color: white;
+  padding-top: 0px;
+  position: fixed;
+  width: 100%; 
+  top: 0;
+  height:200px;}
+
+header img{
+  margin:0;
+  width:250px;
+  height:150px;
+
+}
+nav ul li 
+{
+  display: inline;
+  float: right;
+  padding-left: 50px;
+  text-decoration: none;
+padding-right:30px;
+padding-top: 0px;
+padding-bottom:100px;
+
+}
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient( url("../home/prasanna/stackroute/assignment/img/5.jpg"));
+
+  /* Set a specific height */
+  height: 70%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align:black ;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+nav ul li a
+{ 
+  float: left;
+}
+
+
+figure img{
+  padding-bottom: 80px;
+  padding-right:100px;
+  padding-left:50px;
+}
+
+
+
+.img
+{
+ float:right;
+ padding-bottom:350px;.wrapper {
+  display: grid;
+    padding-top: 350px;
+    }
+    .wrapper {
+        width: 485px;
+    }
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    .wrapper > div {
+        border: 5px white;
+        border-radius: 5px;
+        background-color: white;
+        padding: 1em;
+        color: #d9480f;
+    }
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(3,3fr);
+      grid-auto-rows: 100px;
+    }
+    .column,.row{
+      height: 200px;
+    }
+      .column {
+        float: left;
+        width: 50%;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        padding-right: 100%;
+        float: left;
+      }
+        /* Three image containers (use 25% for four, and 50% for two, etc) */
+       .column {
+         float: left;
+         width: 50%;
+       }
+
+       /* Clear floats after image containers */
+       .row::after {
+         content: "";float: right;
+         width: 60%;
+         clear: both;
+         display: table;
+       } 
+       .grid-container3
+       {
+       background-color: blue;
+
+
+       display: grid;
+       grid-template-columns:auto auto;
+       grid-template-rows:200px;
+       object-fit: cover;
+
+       }.griditem3{padding-left:200px}
+.grid-container4{display:grid;grid-template-columns:auto;grid-template-rows:60px;background-color: white;margin-bottom:20px}
+#last{text-align:center;color:#fff;padding:20px;font-weight:700;font-size:18px}
+.meta{font-size:15px;padding-left:200px}
+.img2{display:block;padding-bottom:10px;padding-left:120px;font-size:15px}
+.img2 a{text-decoration:none;color:#000}
+.img3{padding-bottom:40px}
+.img7{
+  width:450px;height:500px;}
+  #containerlast{margin-bottom:20px;}
+  .container_12{margin-bottom:20px;}
+  .vertical{text-align:justify;font-size:15px;font-family:sans-serif;}
+  .grid_6{bottom: 1px solid black;}
+  }
